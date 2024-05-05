@@ -1,0 +1,692 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="498c-3fa2-ce3e-950f" name="Soldiers" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="eb54-f6c1-c4bf-c22f" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <entryLinks>
+    <entryLink id="9d16-16d4-c57d-c9c3" name="Elite" hidden="false" collective="false" import="true" targetId="a521-f8ca-cb4b-c576" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="4481-4711-4f0d-7b7f" name="Troopers" hidden="false" targetId="d669-d10b-1ad8-dba7" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="2373-5166-5a70-caee" name="Gun Crew" hidden="false" collective="false" import="true" targetId="5b35-16b7-36a5-a808" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="c9df-2ea1-f9cc-78e3" name="Troopers" hidden="false" targetId="d669-d10b-1ad8-dba7" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="39c2-5b84-45dd-df77" name="Heavy" hidden="false" collective="false" import="true" targetId="b6a8-4b10-b00c-3f3b" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="c50f-3b4c-7ced-e121" name="Heavies" hidden="false" targetId="f19d-a8f6-1233-852e" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="89aa-0a0a-379a-b879" name="Hound" hidden="false" collective="false" import="true" targetId="7dbf-2eb3-b979-62e5" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="f9d4-f960-5331-96af" name="Minion" hidden="false" targetId="98da-e52b-7c11-df0f" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="ef37-12ba-b908-dced" name="Trooper" hidden="false" collective="false" import="true" targetId="2a26-3100-51f4-ed7a" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="69f0-b741-73f2-06f7" name="Troopers" hidden="false" targetId="d669-d10b-1ad8-dba7" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="4fb3-7c01-a2e6-a0b5" name="Swarm" hidden="false" collective="false" import="true" targetId="4648-4f6f-fd89-51ee" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="d38f-18a2-6e1c-f321" name="Minion" hidden="false" targetId="98da-e52b-7c11-df0f" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="30da-a3e1-1fdd-fe29" name="Monstrosity" hidden="false" collective="false" import="true" targetId="403c-d63c-e0c4-e161" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="d01b-b869-4577-0e47" name="Heavies" hidden="false" targetId="f19d-a8f6-1233-852e" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="6c01-7c70-a00a-7ecc" name="Hover Drone" hidden="false" collective="false" import="true" targetId="eac2-e743-06bb-9723" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7621-6600-9496-88c8" name="Minion" hidden="false" targetId="98da-e52b-7c11-df0f" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="9f0a-5578-c932-448a" name="Minion" hidden="false" collective="false" import="true" targetId="1b3b-63dd-585b-c243" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="2d2e-87a0-98db-f30a" name="Minion" hidden="false" targetId="98da-e52b-7c11-df0f" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="a521-f8ca-cb4b-c576" name="Elite" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="36a6-b3ec-ca4b-00ce" name="Elite" hidden="false" typeId="7114-7107-44c0-302f" typeName="Soldier">
+          <modifiers>
+            <modifier type="increment" field="6016-94c8-15a0-5ea7" value="1">
+              <conditions>
+                <condition field="selections" scope="a521-f8ca-cb4b-c576" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b143-a1dd-1575-5a0f" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="0660-e265-b80c-ba2b" value="9&quot;+D6">
+              <conditions>
+                <condition field="selections" scope="a521-f8ca-cb4b-c576" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a1b2-2e26-edb6-ab3a" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="0660-e265-b80c-ba2b" value="9&quot;+2D6">
+              <conditions>
+                <condition field="selections" scope="a521-f8ca-cb4b-c576" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a4f1-dd68-1d63-56b3" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="148a-91b3-ae3e-3fee" value="4">
+              <conditions>
+                <condition field="selections" scope="a521-f8ca-cb4b-c576" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6916-a77b-079b-984e" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Vitality" typeId="e4a5-d6b4-f011-bc5c">3</characteristic>
+            <characteristic name="Slots" typeId="6016-94c8-15a0-5ea7">3</characteristic>
+            <characteristic name="AP" typeId="148a-91b3-ae3e-3fee">3</characteristic>
+            <characteristic name="MV" typeId="0660-e265-b80c-ba2b">6&quot;+D6</characteristic>
+            <characteristic name="Cost" typeId="eb58-21d6-66a9-6bab">10</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="49e5-59c3-5661-7d15" name="Trooper" hidden="false" targetId="d669-d10b-1ad8-dba7" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="7c92-887f-7549-f245" name="Hardened" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7b79-81f6-549b-ad50" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="7b3e-2c88-1193-52a6" name="Hardened" hidden="false" targetId="694c-d2a2-cfee-b5c5" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Credit" typeId="0583-bf1f-4515-6c66" value="7.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="a1b2-2e26-edb6-ab3a" name="L.E.A.P Device" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="df4c-74bc-eb42-09a2" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="Credit" typeId="0583-bf1f-4515-6c66" value="5.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="a4f1-dd68-1d63-56b3" name="Mount" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0ed5-dc7d-2afa-fc88" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="6cff-765e-148a-6ffd" name="Mount-Attached Gun" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f789-d033-cc48-ce33" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Credit" typeId="0583-bf1f-4515-6c66" value="2.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <costs>
+            <cost name="Credit" typeId="0583-bf1f-4515-6c66" value="7.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="b143-a1dd-1575-5a0f" name="Extra Slot" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5042-cea4-4b52-8fa6" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="e887-2185-5654-39ac" name="+1 slot" hidden="false"/>
+          </rules>
+          <costs>
+            <cost name="Credit" typeId="0583-bf1f-4515-6c66" value="1.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="6916-a77b-079b-984e" name="Hyper Elite" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6002-c53d-804a-2d43" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="Credit" typeId="0583-bf1f-4515-6c66" value="5.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="1acf-8bff-f0c6-0454" name="Ranged Weapons" hidden="false" collective="false" import="true" targetId="4b01-d7d4-799c-6300" type="selectionEntryGroup"/>
+        <entryLink id="a7dd-ac6c-eb11-8c5d" name="Melee Weapons" hidden="false" collective="false" import="true" targetId="818b-99f2-4603-95d4" type="selectionEntryGroup"/>
+        <entryLink id="9899-787e-a7c4-6ffe" name="Items" hidden="false" collective="false" import="true" targetId="4f12-09fb-989e-69e6" type="selectionEntryGroup"/>
+        <entryLink id="2bf3-f27b-d03b-b4e5" name="Psychic Powers" hidden="false" collective="false" import="true" targetId="88bb-9f2e-3cfe-4ef4" type="selectionEntryGroup"/>
+        <entryLink id="8eb2-e1b9-d8f9-2217" name="Leadership Bonus" hidden="false" collective="false" import="true" targetId="50b6-d636-0a76-6184" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Credit" typeId="0583-bf1f-4515-6c66" value="10.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2a26-3100-51f4-ed7a" name="Trooper" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="e3f2-7d93-45b2-e92b" name="Trooper" hidden="false" typeId="7114-7107-44c0-302f" typeName="Soldier">
+          <modifiers>
+            <modifier type="set" field="0660-e265-b80c-ba2b" value="9&quot;+D6">
+              <conditions>
+                <condition field="selections" scope="2a26-3100-51f4-ed7a" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="09eb-4716-db91-31ab" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="6016-94c8-15a0-5ea7" value="1">
+              <conditions>
+                <condition field="selections" scope="2a26-3100-51f4-ed7a" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a939-aa0a-1a63-0d16" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="0660-e265-b80c-ba2b" value="9&quot;+2D6">
+              <conditions>
+                <condition field="selections" scope="2a26-3100-51f4-ed7a" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2211-8e96-3730-25d6" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Vitality" typeId="e4a5-d6b4-f011-bc5c">2</characteristic>
+            <characteristic name="Slots" typeId="6016-94c8-15a0-5ea7">2</characteristic>
+            <characteristic name="AP" typeId="148a-91b3-ae3e-3fee">2</characteristic>
+            <characteristic name="MV" typeId="0660-e265-b80c-ba2b">6&quot;+D6</characteristic>
+            <characteristic name="Cost" typeId="eb58-21d6-66a9-6bab">6</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="2065-294d-ff99-4dc4" name="Trooper" hidden="false" targetId="d669-d10b-1ad8-dba7" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="e392-d84e-78ce-35fc" name="Hardened" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="21f1-a0ab-8a71-ca0d" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="Credit" typeId="0583-bf1f-4515-6c66" value="3.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="09eb-4716-db91-31ab" name="L.E.A.P Device" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="48cc-1107-2627-89c3" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="Credit" typeId="0583-bf1f-4515-6c66" value="4.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="2211-8e96-3730-25d6" name="Mount" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4566-ea3b-b600-5a60" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="5dae-4983-6496-8c55" name="Mount-Attached Gun" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="84a1-1530-0226-2919" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Credit" typeId="0583-bf1f-4515-6c66" value="2.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <costs>
+            <cost name="Credit" typeId="0583-bf1f-4515-6c66" value="6.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="a939-aa0a-1a63-0d16" name="Extra Slot" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bd5a-e36a-f3c5-44f0" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="3f64-1e3e-1d47-b985" name="+1 slot" hidden="false"/>
+          </rules>
+          <costs>
+            <cost name="Credit" typeId="0583-bf1f-4515-6c66" value="1.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="a878-0c7f-34f4-682a" name="Ranged Weapons" hidden="false" collective="false" import="true" targetId="4b01-d7d4-799c-6300" type="selectionEntryGroup"/>
+        <entryLink id="0f18-d6a3-ccaa-2b0b" name="Melee Weapons" hidden="false" collective="false" import="true" targetId="818b-99f2-4603-95d4" type="selectionEntryGroup"/>
+        <entryLink id="2903-5034-7d9f-9f7c" name="Items" hidden="false" collective="false" import="true" targetId="4f12-09fb-989e-69e6" type="selectionEntryGroup"/>
+        <entryLink id="ed64-3739-760b-75a2" name="Psychic Powers" hidden="false" collective="false" import="true" targetId="88bb-9f2e-3cfe-4ef4" type="selectionEntryGroup"/>
+        <entryLink id="b3cf-b12c-0ad3-e470" name="Leadership Bonus" hidden="false" collective="false" import="true" targetId="50b6-d636-0a76-6184" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Credit" typeId="0583-bf1f-4515-6c66" value="6.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5b35-16b7-36a5-a808" name="Gun Crew" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="b090-0cf0-f632-dfe9" name="Gun Crew" hidden="false" typeId="7114-7107-44c0-302f" typeName="Soldier">
+          <modifiers>
+            <modifier type="increment" field="6016-94c8-15a0-5ea7" value="1"/>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Vitality" typeId="e4a5-d6b4-f011-bc5c">4</characteristic>
+            <characteristic name="Slots" typeId="6016-94c8-15a0-5ea7">4</characteristic>
+            <characteristic name="AP" typeId="148a-91b3-ae3e-3fee">2</characteristic>
+            <characteristic name="MV" typeId="0660-e265-b80c-ba2b">6&quot;+D3</characteristic>
+            <characteristic name="Cost" typeId="eb58-21d6-66a9-6bab">15</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="3117-75d4-4772-b49d" name="Trooper" hidden="false" targetId="d669-d10b-1ad8-dba7" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="f3cb-98c9-2ea2-8a27" name="Gun Shield" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="27f6-515a-bcce-34bd" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="fdb3-13c3-5f0f-1346" name="+1 slot" hidden="false"/>
+          </rules>
+          <costs>
+            <cost name="Credit" typeId="0583-bf1f-4515-6c66" value="3.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="9b32-4beb-42f6-e13d" name="Ranged Weapons" hidden="false" collective="false" import="true" targetId="4b01-d7d4-799c-6300" type="selectionEntryGroup"/>
+        <entryLink id="503e-d090-c689-4b43" name="Psychic Powers" hidden="false" collective="false" import="true" targetId="88bb-9f2e-3cfe-4ef4" type="selectionEntryGroup"/>
+        <entryLink id="2e49-6db0-1cad-e9c1" name="Leadership Bonus" hidden="false" collective="false" import="true" targetId="50b6-d636-0a76-6184" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Credit" typeId="0583-bf1f-4515-6c66" value="15.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b6a8-4b10-b00c-3f3b" name="Heavy" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="2a19-0461-85a8-e109" name="Heavy" hidden="false" typeId="7114-7107-44c0-302f" typeName="Soldier">
+          <modifiers>
+            <modifier type="increment" field="6016-94c8-15a0-5ea7" value="1">
+              <conditions>
+                <condition field="selections" scope="b6a8-4b10-b00c-3f3b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8eef-f3a7-6e4e-8c89" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="0660-e265-b80c-ba2b" value="9&quot;+D6">
+              <conditions>
+                <condition field="selections" scope="b6a8-4b10-b00c-3f3b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="46ba-e4a3-f7a7-bac2" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Vitality" typeId="e4a5-d6b4-f011-bc5c">4</characteristic>
+            <characteristic name="Slots" typeId="6016-94c8-15a0-5ea7">4</characteristic>
+            <characteristic name="AP" typeId="148a-91b3-ae3e-3fee">2</characteristic>
+            <characteristic name="MV" typeId="0660-e265-b80c-ba2b">6&quot;+D6</characteristic>
+            <characteristic name="Cost" typeId="eb58-21d6-66a9-6bab">16</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="f880-8c70-cfb1-3b3b" name="Unstoppable Juggernaut" hidden="false">
+          <description>Heavies are hardened and have breach and grounded movement. They don&apos;t get shaken, except from squad abilities.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="4b90-669b-84b8-7c63" name="Trooper" hidden="false" targetId="d669-d10b-1ad8-dba7" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="8eef-f3a7-6e4e-8c89" name="Extra Slot" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b294-4406-1c2f-4c20" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="5c55-b0a6-8342-c063" name="+1 slot" hidden="false"/>
+          </rules>
+          <costs>
+            <cost name="Credit" typeId="0583-bf1f-4515-6c66" value="1.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="46ba-e4a3-f7a7-bac2" name="Battlesuit" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d22e-6af8-aea7-d45d" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="4db7-c3f9-104d-584e" name="Thrusters &amp; Stabilizers" hidden="false">
+              <description>Gains leap movement 9&quot; (+D6) and all equipped ranged weapons gain hip fire.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Credit" typeId="0583-bf1f-4515-6c66" value="18.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="e017-7826-263f-ec33" name="Tactical Ironclad Armor" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2189-cd0d-a1a9-d3b1" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="87cd-0077-a56c-1837" name="Ironclad" hidden="false">
+              <description>Piercing weapons must roll hardened rolls against ironclad armour, while non-piercing weapons must use fluke rolls for their hardened rolls! Also, dash rolls are reduced to D3.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Credit" typeId="0583-bf1f-4515-6c66" value="18.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="e92d-88c6-51c1-40f5" name="Attached Gun" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="702e-635b-9082-91ff" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="17ba-215a-d191-ab90" name="Servo Gun" hidden="false">
+              <description>Allows a ranged weapon to be bought and attached to the heavy as a servo gun.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Credit" typeId="0583-bf1f-4515-6c66" value="3.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="5cd1-8aab-9395-bbec" name="Ranged Weapons" hidden="false" collective="false" import="true" targetId="4b01-d7d4-799c-6300" type="selectionEntryGroup"/>
+        <entryLink id="7cdc-dfd9-de23-bc64" name="Melee Weapons" hidden="false" collective="false" import="true" targetId="818b-99f2-4603-95d4" type="selectionEntryGroup"/>
+        <entryLink id="1c9e-c817-357d-fce7" name="Items" hidden="false" collective="false" import="true" targetId="4f12-09fb-989e-69e6" type="selectionEntryGroup"/>
+        <entryLink id="b114-df1c-6594-0197" name="Psychic Powers" hidden="false" collective="false" import="true" targetId="88bb-9f2e-3cfe-4ef4" type="selectionEntryGroup"/>
+        <entryLink id="a847-e9c0-08ab-84c8" name="Leadership Bonus" hidden="false" collective="false" import="true" targetId="50b6-d636-0a76-6184" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Credit" typeId="0583-bf1f-4515-6c66" value="16.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="403c-d63c-e0c4-e161" name="Monstrosity" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="2ce4-c041-ad7b-8d16" name="Monstrosity" hidden="false" typeId="7114-7107-44c0-302f" typeName="Soldier">
+          <modifiers>
+            <modifier type="set" field="0660-e265-b80c-ba2b" value="9&quot;+D6">
+              <conditions>
+                <condition field="selections" scope="403c-d63c-e0c4-e161" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="eece-9d14-03dc-4da6" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Vitality" typeId="e4a5-d6b4-f011-bc5c">6</characteristic>
+            <characteristic name="Slots" typeId="6016-94c8-15a0-5ea7">6</characteristic>
+            <characteristic name="AP" typeId="148a-91b3-ae3e-3fee">2</characteristic>
+            <characteristic name="MV" typeId="0660-e265-b80c-ba2b">6&quot;+D6</characteristic>
+            <characteristic name="Cost" typeId="eb58-21d6-66a9-6bab">38</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="2d37-43c3-102f-a1d4" name="Unstoppable Juggernaut" hidden="false">
+          <description>Heavies are hardened and have breach and grounded movement. They don&apos;t get shaken, except from squad abilities.</description>
+        </rule>
+        <rule id="59d4-365b-bdc0-433c" name="Horrid Physiology" hidden="false">
+          <description>Gains regen. At the start of each acti- vation, select one special rule for use this game turn:</description>
+        </rule>
+        <rule id="9169-a8ee-8a63-4e72" name="Thunderous Advance" hidden="false">
+          <description>Increases dash roll to 2D6.</description>
+        </rule>
+        <rule id="4d0d-f7b5-af74-5ff3" name="Dreadful Reach" hidden="false">
+          <description>May Fight against any targets within 3 + D6&quot; (roll at start of activation).</description>
+        </rule>
+        <rule id="058c-9496-e4bf-167b" name="Terrifying Roar" hidden="false">
+          <description>May use a free Interaction (difficulty 0) to shake enemy soldiers within short range (9&quot;).</description>
+        </rule>
+        <rule id="0b50-3397-e9b0-056e" name="Fierce Toss" hidden="false">
+          <description>May use a free Interaction (difficulty = target&apos;s vitality) where, if succesful, 1 soldier within proximity (3&quot;) may be repositioned, and shaken, to a playable surface within short range (9&quot;).</description>
+        </rule>
+      </rules>
+      <selectionEntries>
+        <selectionEntry id="eece-9d14-03dc-4da6" name="Leaping Terror" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ac69-1c2a-6ea1-2f3a" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="5e78-83fd-ce95-dcef" name="Leaping Terror" hidden="false">
+              <description>Movement is changed to leap 9&quot; (+D6).</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Credit" typeId="0583-bf1f-4515-6c66" value="6.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="4da9-cd0d-2762-70e5" name="Items" hidden="false" collective="false" import="true" targetId="4f12-09fb-989e-69e6" type="selectionEntryGroup"/>
+        <entryLink id="abdc-1318-b8e5-a57d" name="Leadership Bonus" hidden="false" collective="false" import="true" targetId="50b6-d636-0a76-6184" type="selectionEntryGroup"/>
+        <entryLink id="0f59-e289-b253-e129" name="Melee Weapons" hidden="false" collective="false" import="true" targetId="818b-99f2-4603-95d4" type="selectionEntryGroup"/>
+        <entryLink id="aacd-9bbf-dc1a-9bed" name="Psychic Powers" hidden="false" collective="false" import="true" targetId="88bb-9f2e-3cfe-4ef4" type="selectionEntryGroup"/>
+        <entryLink id="1dc5-b314-cbb0-1e6d" name="Ranged Weapons" hidden="false" collective="false" import="true" targetId="4b01-d7d4-799c-6300" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Credit" typeId="0583-bf1f-4515-6c66" value="38.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1b3b-63dd-585b-c243" name="Minion" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="f814-966a-081c-4683" name="Minion" hidden="false" typeId="7114-7107-44c0-302f" typeName="Soldier">
+          <modifiers>
+            <modifier type="increment" field="6016-94c8-15a0-5ea7" value="1">
+              <conditions>
+                <condition field="selections" scope="1b3b-63dd-585b-c243" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="335a-5fb2-ce00-f95f" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="e4a5-d6b4-f011-bc5c" value="2">
+              <conditions>
+                <condition field="selections" scope="1b3b-63dd-585b-c243" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="8cd5-ea33-9bdb-704d" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Vitality" typeId="e4a5-d6b4-f011-bc5c">1</characteristic>
+            <characteristic name="Slots" typeId="6016-94c8-15a0-5ea7">1</characteristic>
+            <characteristic name="AP" typeId="148a-91b3-ae3e-3fee">2</characteristic>
+            <characteristic name="MV" typeId="0660-e265-b80c-ba2b">6+D6</characteristic>
+            <characteristic name="Cost" typeId="eb58-21d6-66a9-6bab">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="77dc-f572-467b-bbfe" name="Evasive Rascal" hidden="false">
+          <description>Gains a permanent +2 defense from their small body type and, once per activation, after Fighting, Firing or Interacting, they may perform a free &quot;Scamper!&quot; Move (even if they have Moved). It allows them to Move D6&quot; and retreat without consequences - but not charge.</description>
+        </rule>
+        <rule id="3366-76a0-5e46-c51c" name="Low Standing" hidden="false">
+          <description>May only equip non-rare equipment.</description>
+        </rule>
+      </rules>
+      <selectionEntries>
+        <selectionEntry id="335a-5fb2-ce00-f95f" name="Extra Slot" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7b68-7a00-6943-fb08" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="52c8-6d29-490e-a9eb" name="+1 Slot" hidden="false">
+              <description>Gains an additional inventory slot.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Credit" typeId="0583-bf1f-4515-6c66" value="1.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="8cd5-ea33-9bdb-704d" name="Big Lil&apos; Soldier" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c57d-e28f-d762-7c50" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="1e3a-0d88-0aba-fa54" name="Big Personality" hidden="false">
+              <description>Gains Vitality 2. Can equip rares.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Credit" typeId="0583-bf1f-4515-6c66" value="3.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="92d0-b416-e135-65d3" name="Items" hidden="false" collective="false" import="true" targetId="4f12-09fb-989e-69e6" type="selectionEntryGroup"/>
+        <entryLink id="4ca9-32b5-b3ba-66d2" name="Leadership Bonus" hidden="false" collective="false" import="true" targetId="50b6-d636-0a76-6184" type="selectionEntryGroup"/>
+        <entryLink id="e2be-1c58-95e9-0f91" name="Melee Weapons" hidden="false" collective="false" import="true" targetId="818b-99f2-4603-95d4" type="selectionEntryGroup"/>
+        <entryLink id="bbd7-989b-2f0a-0bb8" name="Psychic Powers" hidden="false" collective="false" import="true" targetId="88bb-9f2e-3cfe-4ef4" type="selectionEntryGroup"/>
+        <entryLink id="c61f-7d28-d27a-86a3" name="Ranged Weapons" hidden="false" collective="false" import="true" targetId="4b01-d7d4-799c-6300" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Credit" typeId="0583-bf1f-4515-6c66" value="3.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7dbf-2eb3-b979-62e5" name="Hound" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="ab92-9f54-1177-e7cf" name="Hound" hidden="false" typeId="7114-7107-44c0-302f" typeName="Soldier">
+          <modifiers>
+            <modifier type="set" field="e4a5-d6b4-f011-bc5c" value="2">
+              <conditions>
+                <condition field="selections" scope="7dbf-2eb3-b979-62e5" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="860c-895d-860f-0bc4" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Vitality" typeId="e4a5-d6b4-f011-bc5c">1</characteristic>
+            <characteristic name="Slots" typeId="6016-94c8-15a0-5ea7">0</characteristic>
+            <characteristic name="AP" typeId="148a-91b3-ae3e-3fee">2</characteristic>
+            <characteristic name="MV" typeId="0660-e265-b80c-ba2b">9&quot;+2D6</characteristic>
+            <characteristic name="Cost" typeId="eb58-21d6-66a9-6bab">5</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="ae17-44b1-41d8-2d7d" name="Evasive Rascal" hidden="false">
+          <description>Gains a permanent +2 defense from their small body type and, once per activation, after Fighting, Firing or Interacting, they may perform a free &quot;Scamper!&quot; Move (even if they have Moved). It allows them to Move D6&quot; and retreat without consequences - but not charge.</description>
+        </rule>
+        <rule id="579d-027c-d070-96c0" name="Clenching Bite" hidden="false">
+          <description>A hound has a single 1 damage biting strike. When a target takes damage from it, they cannot retreat and count as shaken until the hound is taken out, retreats or targets a different enemy. Hounds use grounded movement and can&apos;t equip anything.</description>
+        </rule>
+      </rules>
+      <selectionEntries>
+        <selectionEntry id="860c-895d-860f-0bc4" name="Direhound" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aa0d-a221-873d-5deb" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="8326-d6e5-4cce-6562" name="Killer K9" hidden="false">
+              <description>Gains Vitality 2. The bite becomes piercing.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Credit" typeId="0583-bf1f-4515-6c66" value="4.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="6f36-1834-eae5-7a0f" name="Leadership Bonus" hidden="false" collective="false" import="true" targetId="50b6-d636-0a76-6184" type="selectionEntryGroup"/>
+        <entryLink id="85bd-98c7-630e-f9b0" name="Psychic Powers" hidden="false" collective="false" import="true" targetId="88bb-9f2e-3cfe-4ef4" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Credit" typeId="0583-bf1f-4515-6c66" value="5.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="eac2-e743-06bb-9723" name="Hover Drone" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="ee6f-b374-c32c-8ea0" name="Hover Drone" hidden="false" typeId="7114-7107-44c0-302f" typeName="Soldier">
+          <modifiers>
+            <modifier type="set" field="e4a5-d6b4-f011-bc5c" value="2">
+              <conditions>
+                <condition field="selections" scope="eac2-e743-06bb-9723" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="fc18-7aba-f266-d91f" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="6016-94c8-15a0-5ea7" value="3">
+              <conditions>
+                <condition field="selections" scope="eac2-e743-06bb-9723" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="fc18-7aba-f266-d91f" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Vitality" typeId="e4a5-d6b4-f011-bc5c">1</characteristic>
+            <characteristic name="Slots" typeId="6016-94c8-15a0-5ea7">2</characteristic>
+            <characteristic name="AP" typeId="148a-91b3-ae3e-3fee">2</characteristic>
+            <characteristic name="MV" typeId="0660-e265-b80c-ba2b">9&quot;+D6</characteristic>
+            <characteristic name="Cost" typeId="eb58-21d6-66a9-6bab">5</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="2dae-efcc-6cfd-7ae8" name="Evasive Rascal" hidden="false">
+          <description>Gains a permanent +2 defense from their small body type and, once per activation, after Fighting, Firing or Interacting, they may perform a free &quot;Scamper!&quot; Move (even if they have Moved). It allows them to Move D6&quot; and retreat without consequences - but not charge.</description>
+        </rule>
+        <rule id="a7df-f758-9b54-c5c1" name="Anti-Grav Motor" hidden="false">
+          <description>Gains leap movement. Its &quot;Scamper!&quot;
+Move becomes 6&quot; (instead of D6).</description>
+        </rule>
+      </rules>
+      <selectionEntries>
+        <selectionEntry id="976f-3b96-f931-1f7c" name="Targeting Scanner" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2a9a-2d11-423c-d59a" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="cfb5-61c3-44be-3c06" name="Exposed Target" hidden="false">
+              <description>While the drone is within proximity (3&quot;) of enemies, they can&apos;t gain the benefit of cover, de- fense or the items chameleon weave and cloaking field.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Credit" typeId="0583-bf1f-4515-6c66" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="fc18-7aba-f266-d91f" name="Advanced Combat Drone" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="28a1-4075-3a54-74b0" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="fa26-357b-9c7b-c65a" name="XL Drone" hidden="false">
+              <description>Gains Vitality 2 and Slots 3.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Credit" typeId="0583-bf1f-4515-6c66" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="4fe0-59c6-1e17-6871" name="Items" hidden="false" collective="false" import="true" targetId="4f12-09fb-989e-69e6" type="selectionEntryGroup"/>
+        <entryLink id="615d-ad97-3d16-28ce" name="Leadership Bonus" hidden="false" collective="false" import="true" targetId="50b6-d636-0a76-6184" type="selectionEntryGroup"/>
+        <entryLink id="4713-cd04-f401-c91a" name="Melee Weapons" hidden="false" collective="false" import="true" targetId="818b-99f2-4603-95d4" type="selectionEntryGroup"/>
+        <entryLink id="aa32-04fd-c36e-b45a" name="Psychic Powers" hidden="false" collective="false" import="true" targetId="88bb-9f2e-3cfe-4ef4" type="selectionEntryGroup"/>
+        <entryLink id="c3e9-445c-1c60-a8f9" name="Ranged Weapons" hidden="false" collective="false" import="true" targetId="4b01-d7d4-799c-6300" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Credit" typeId="0583-bf1f-4515-6c66" value="5.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4648-4f6f-fd89-51ee" name="Swarm" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="b932-114b-a7ec-3b6b" name="Swarm" hidden="false" typeId="7114-7107-44c0-302f" typeName="Soldier">
+          <modifiers>
+            <modifier type="set" field="0660-e265-b80c-ba2b" value="9&quot;+D6">
+              <conditions>
+                <condition field="selections" scope="4648-4f6f-fd89-51ee" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="8053-0ba3-b6a2-fef8" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Vitality" typeId="e4a5-d6b4-f011-bc5c">4</characteristic>
+            <characteristic name="Slots" typeId="6016-94c8-15a0-5ea7">0</characteristic>
+            <characteristic name="AP" typeId="148a-91b3-ae3e-3fee">2</characteristic>
+            <characteristic name="MV" typeId="0660-e265-b80c-ba2b">6&quot;+D6</characteristic>
+            <characteristic name="Cost" typeId="eb58-21d6-66a9-6bab">9</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="8fb5-0955-1265-2c7b" name="Evasive Rascal" hidden="false">
+          <description>Gains a permanent +2 defense from their small body type and, once per activation, after Fighting, Firing or Interacting, they may perform a free &quot;Scamper!&quot; Move (even if they have Moved). It allows them to Move D6&quot; and retreat without consequences - but not charge.</description>
+        </rule>
+        <rule id="be9f-4428-185e-cd26" name="Pesky Swarm" hidden="false">
+          <description>Each point of a swarm&apos;s vitality grants it a 1 damage fluke strike. Gains regen, but takes double dam- age from flame and blast weapons. Can&apos;t equip anything.
+</description>
+        </rule>
+      </rules>
+      <selectionEntries>
+        <selectionEntry id="8053-0ba3-b6a2-fef8" name="Soaring Swarm" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f21f-42fc-5b85-9507" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="5d9d-d359-fcaa-f513" name="Airborne Vermin" hidden="false">
+              <description>Gains 9&quot; (+D6) leap movement.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Credit" typeId="0583-bf1f-4515-6c66" value="3.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="8ab6-163e-b74c-b941" name="Leadership Bonus" hidden="false" collective="false" import="true" targetId="50b6-d636-0a76-6184" type="selectionEntryGroup"/>
+        <entryLink id="7cdf-8ca7-0a4d-f717" name="Psychic Powers" hidden="false" collective="false" import="true" targetId="88bb-9f2e-3cfe-4ef4" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Credit" typeId="0583-bf1f-4515-6c66" value="9.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+</catalogue>
