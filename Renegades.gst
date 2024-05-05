@@ -1631,14 +1631,14 @@ Piercing Missile: 2</characteristic>
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="880c-3205-a092-8c7b" name="Training Cost" hidden="false" collective="false" import="true">
-          <comment>Through training, soldiers can master the psychic and ethereal realm. A single soldier in your squad roster, which can be your squad leader, may be trained as either a psymancer or a master psy- mancer and gain psychic powers from this page.
+          <comment>Through training, soldiers can master the psychic and ethereal realm. A single soldier in your squad roster, which can be your squad leader, may be trained as either a psymancer or a master psymancer and gain psychic powers from this page.
 • Psymancer
 May choose two psychic powers. The training credit cost is equal to twice the psymancer&apos;s starting vitality.
 • Master Psymancer
 May choose three psychic powers. Also, the cost of Interacting is reduced by 1 action point (AP) when using a psychic power. The training credit cost is equal to three times the master psymancer&apos;s starting vitality.</comment>
           <rules>
             <rule id="9452-92a4-c6f5-60c9" name="Training Cost" hidden="false">
-              <description>Through training, soldiers can master the psychic and ethereal realm. A single soldier in your squad roster, which can be your squad leader, may be trained as either a psymancer or a master psy- mancer and gain psychic powers from this page.
+              <description>Through training, soldiers can master the psychic and ethereal realm. A single soldier in your squad roster, which can be your squad leader, may be trained as either a psymancer or a master psymancer and gain psychic powers from this page.
 • Psymancer
 May choose two psychic powers. The training credit cost is equal to twice the psymancer&apos;s starting vitality.
 • Master Psymancer
@@ -1664,7 +1664,7 @@ May choose three psychic powers. Also, the cost of Interacting is reduced by 1 a
       <description>With the piercing attribute, a weapon ignores the hardened special rule and deals damage directly.</description>
     </rule>
     <rule id="694c-d2a2-cfee-b5c5" name="Hardened" hidden="false">
-      <description>Before hardened soldiers take damage, the player targeting them must perform a desperate roll with a D6 for each point of damage about to be inflicted. All dice with an even roll, i.e. 2/4/6, inflict 1 point of damage, while the remaining dice, and asso- ciated damage, is ignored. Use black dice, instead of red, to track the vitality of hardened soldiers. This trait represents incredibly powerful armour or an extreme level of natural resilience.</description>
+      <description>Before hardened soldiers take damage, the player targeting them must perform a desperate roll with a D6 for each point of damage about to be inflicted. All dice with an even roll, i.e. 2/4/6, inflict 1 point of damage, while the remaining dice, and associated damage, is ignored. Use black dice, instead of red, to track the vitality of hardened soldiers. This trait represents incredibly powerful armour or an extreme level of natural resilience.</description>
     </rule>
     <rule id="ebeb-b969-4ce7-00dd" name="Regeneration" hidden="false">
       <description>When a soldier has the regeneration, &quot;regen&quot;, attribute they continuously replenish their vitality. This occurs at the start of their activation and, unless the rule specifies a different amount, means that they gain 1 point of vitality back.</description>
@@ -1689,7 +1689,7 @@ if all shot rolls are misses. This effect extends to enemies within proximity (3
       <description>A servo gun is an automated ranged weapon, attached to armour or a mount, that does not require any slots. When Firing, any amount of servo guns may be fired (in addition to a &quot;normal&quot; ranged weapon), and they may target different enemies.</description>
     </rule>
     <rule id="8ff6-5231-5a7c-37cd" name="Blast" hidden="false">
-      <description>A blast weapon ignores cover when determining shot difficulty. If it hits, the shot roll also determines the blast radius, in inch- es (a roll of 3 becomes a 3&quot; radius). Soldiers within this radius, measured from the initial target, are also hit (but never critically).
+      <description>A blast weapon ignores cover when determining shot difficulty. If it hits, the shot roll also determines the blast radius, in inches (a roll of 3 becomes a 3&quot; radius). Soldiers within this radius, measured from the initial target, are also hit (but never critically).
 </description>
     </rule>
     <rule id="f94f-1a80-92f2-62e7" name="Ordnance" hidden="false">
@@ -1711,7 +1711,7 @@ if all shot rolls are misses. This effect extends to enemies within proximity (3
       <description>A smoke grenade, trap or similar may have a duration that it remains active in the combat zone. Place a die with the correct duration on or next to the token in question. Each time you update the turn counter, subtract 1 from all duration dice in the combat zone. When a duration die &quot;reaches&quot; zero, it and the relevant special effect or object is removed.</description>
     </rule>
     <rule id="b583-db98-1809-1c05" name="Medpack" hidden="false">
-      <description>Using an Interaction, a soldier with a medpack can heal al- lies within proximity (3&quot;). The interaction difficulty is equal to the ally&apos;s starting vitality. If successful, the ally gains 1 point of vitality back. On a critical success, they gain 2.</description>
+      <description>Using an Interaction, a soldier with a medpack can heal allies within proximity (3&quot;). The interaction difficulty is equal to the ally&apos;s starting vitality. If successful, the ally gains 1 point of vitality back. On a critical success, they gain 2.</description>
     </rule>
     <rule id="7a79-6a4f-7465-9b18" name="Tactical Shield" hidden="false">
       <description>A tactical shield, which grants a permanent +1 defense.</description>
@@ -1727,7 +1727,7 @@ of an enemy soldier using an Interaction. The enemy must be in line-of-sight and
       <description>An advanced force field which grants a permanent +2 defense, without the need for any slot usage.</description>
     </rule>
     <rule id="bc2c-c568-0dd3-e8c6" name="Rallying Banner" hidden="false">
-      <description>A glorious banner or icon that inspires soldiers within short range (9&quot;) and serves as a beacon for arriving reinforce- ments. Friendly shaken soldiers that are activated within its range may recover their lost action points (AP) on an even roll of a desperate D6. The banner also serves as a reinforcement site, sharing the rules of one.</description>
+      <description>A glorious banner or icon that inspires soldiers within short range (9&quot;) and serves as a beacon for arriving reinforcements. Friendly shaken soldiers that are activated within its range may recover their lost action points (AP) on an even roll of a desperate D6. The banner also serves as a reinforcement site, sharing the rules of one.</description>
     </rule>
     <rule id="5e2b-cd95-cb8a-1605" name="Chameleon Weave" hidden="false">
       <description>Sheathed in chameleon weave, soldiers blend right in! They cannot be attacked beyond medium range (18&quot;) and attacks beyond short range (9&quot;) become desperate.</description>
@@ -1742,7 +1742,7 @@ of an enemy soldier using an Interaction. The enemy must be in line-of-sight and
       <description>During your activation, select a single enemy soldier and place a special effects token next to them. For the rest of the game turn, any rolls of 1 against this target count as critical hits. (EPIC) 1 SP</description>
     </rule>
     <rule id="b2d0-cd29-a277-b7f0" name="Lay Trap" hidden="false">
-      <description>Allows your active soldier to perform an In- teraction (difficulty 1) to lay a trap within their proximity (3&quot;), using a special effects token. Any enemy that Moves within melee range (1&quot;) of the trap is immediately immobilized, loses any remaining action points (AP) and must perform an Interaction (difficulty 2) to disarm the trap and regain the ability to Move. The trap is removed when triggered. Only 3 traps may be active at once. Cannot be performed while engaged. (EPIC) 1 SP</description>
+      <description>Allows your active soldier to perform an Interaction (difficulty 1) to lay a trap within their proximity (3&quot;), using a special effects token. Any enemy that Moves within melee range (1&quot;) of the trap is immediately immobilized, loses any remaining action points (AP) and must perform an Interaction (difficulty 2) to disarm the trap and regain the ability to Move. The trap is removed when triggered. Only 3 traps may be active at once. Cannot be performed while engaged. (EPIC) 1 SP</description>
     </rule>
     <rule id="1741-c5c4-307a-082a" name="Throw Grenade" hidden="false">
       <description>Allows your active soldier to throw a grenade using a Firing action, instead of using a normal ranged weapon. A grenade is a ordnance weapon with short range (9&quot;), damage 1 and a duration of 1. 1 SP</description>
@@ -1752,7 +1752,7 @@ of an enemy soldier using an Interaction. The enemy must be in line-of-sight and
     </rule>
     <rule id="5529-a9fa-2273-4196" name="Desperate Last Stand" hidden="false">
       <description>When a friendly soldier is reduced to 0 vitality and about to be taken out, this ability allows them to perform a final 1 AP action as a reac-
-tion, but any rolls become desperate. If this final action triggers a free action of some kind, they may perform that too. If they manage to take out their would-be killer (the en- emy soldier who took them out), they are not taken out and are restored back to 1 vitality. Otherwise, they are simply taken out unless CHEATING DEATH succeeds. 1 SP</description>
+tion, but any rolls become desperate. If this final action triggers a free action of some kind, they may perform that too. If they manage to take out their would-be killer (the enemy soldier who took them out), they are not taken out and are restored back to 1 vitality. Otherwise, they are simply taken out unless CHEATING DEATH succeeds. 1 SP</description>
     </rule>
     <rule id="df40-2254-9915-260a" name="Cheating Death" hidden="false">
       <description>When a friendly soldier is taken out and about to be removed, roll a fluke roll. On a roll of 6, the soldier survives with 1 vitality remaining. This roll is performed after any DESPERATE LAST STAND (see above) attempt has been made. (PASSIVE)</description>
@@ -1773,19 +1773,19 @@ tion, but any rolls become desperate. If this final action triggers a free actio
       <description>This ability allows your active soldier to heal themselves using a free Interaction (difficulty 1). A success restores 1 point of vitality, while a critical success restores 2 points. The ability costs 2 SP if the healing soldier is hardened. (EPIC) 1/2 SP</description>
     </rule>
     <rule id="26fa-6c81-c892-8665" name="Cling to life" hidden="false">
-      <description>After a friendly soldier is taken out (and after any special rules/squad abilities have been used to try and prevent this), this ability may be used to have them cling to life. Instead of removing the sol- dier from the combat zone as normal, gently tip the model over. The soldier may not perform any actions, except for the RECOVER Interaction (see above). While clinging to life, taking any damage results in being taken out. If healed back to at least 1 vitality, the soldier is returned to normal. (EPIC) 2 SP</description>
+      <description>After a friendly soldier is taken out (and after any special rules/squad abilities have been used to try and prevent this), this ability may be used to have them cling to life. Instead of removing the soldier from the combat zone as normal, gently tip the model over. The soldier may not perform any actions, except for the RECOVER Interaction (see above). While clinging to life, taking any damage results in being taken out. If healed back to at least 1 vitality, the soldier is returned to normal. (EPIC) 2 SP</description>
     </rule>
     <rule id="5d3f-4f0f-6943-1391" name="Request Artillery" hidden="false">
       <description>Allows your active soldier to use a Fire action to request an artillery strike, which functions like an ordnance weapon with medium range (18”), damage 2 and duration 2. However, the blast radius is determined using 3D3&quot; instead. (EPIC) 2 SP</description>
     </rule>
     <rule id="c658-88e3-6282-bbbb" name="Quadrant Eradicatus" hidden="false">
-      <description>Allows your active soldier to use an Interaction (difficulty 1) to contact high command and re- quest that a combat sector be eradicated. Select a table quadrant (one corner of the combat zone, 1/4th of its total size). Set a duration of 2. After the duration, any and all soldiers and removeable terrain pieces fully within that quadrant are taken out/removed. Can only be used once per game. (EPIC) 5 SP</description>
+      <description>Allows your active soldier to use an Interaction (difficulty 1) to contact high command and request that a combat sector be eradicated. Select a table quadrant (one corner of the combat zone, 1/4th of its total size). Set a duration of 2. After the duration, any and all soldiers and removeable terrain pieces fully within that quadrant are taken out/removed. Can only be used once per game. (EPIC) 5 SP</description>
     </rule>
     <rule id="910c-4f7a-7515-33af" name="Dig In!" hidden="false">
       <description>This ability allows a soldier to perform an Interaction (difficulty 1), which grants them the benefit of cover without needing to be behind cover in the usual way. Place a special effects token next to the soldier. The ability lasts until the soldier Moves in any way. Cannot be performed while engaged. 1 SP</description>
     </rule>
     <rule id="9870-5038-efa1-d2c3" name="Fix Bayonets!" hidden="false">
-      <description>When this ability is used, all soldiers without a melee weapon gain a normal 1 damage strike (in addition to their desperate strike). However, as they ready for hand-to-hand combat, their marksman- ship is deemphasized and they no longer score crits when Firing. These effects last for the rest of the game turn. (EPIC) 1 SP</description>
+      <description>When this ability is used, all soldiers without a melee weapon gain a normal 1 damage strike (in addition to their desperate strike). However, as they ready for hand-to-hand combat, their marksmanship is deemphasized and they no longer score crits when Firing. These effects last for the rest of the game turn. (EPIC) 1 SP</description>
     </rule>
     <rule id="264e-a747-c6d9-4bcd" name="Stim-Boost" hidden="false">
       <description>Allows the active soldier to gain 1 additional action point (AP) during their activation, but if it is used to Fight or Fire, all rolls are desperate. Also, a desperate D6 must be rolled. Unless an even roll is scored, the soldier also loses 1 point of vitality. 1 SP</description>
@@ -1794,13 +1794,13 @@ tion, but any rolls become desperate. If this final action triggers a free actio
       <description>Allows an expended soldier to be activated again, but any Fight or Fire rolls are desperate and they lose 1 point of vitality. If this reduces them to 0 vitality, they may first perform their actions and then, if they roll an even number on a desperate D6, they survive with 1 vitality, otherwise they are taken out. (EPIC) 2 SP</description>
     </rule>
     <rule id="7e90-31ca-a31e-e2b4" name="Shrug It Off" hidden="false">
-      <description>This ability is used when a soldier is activated and allows them to recover from the shaken ef- fect, regaining their full action points (AP). This ability costs 1 SP if the soldier recovers 1 AP by not being shaken, and 2 SP for recovering 2 AP (like elites). (EPIC) 1/2 SP</description>
+      <description>This ability is used when a soldier is activated and allows them to recover from the shaken effect, regaining their full action points (AP). This ability costs 1 SP if the soldier recovers 1 AP by not being shaken, and 2 SP for recovering 2 AP (like elites). (EPIC) 1/2 SP</description>
     </rule>
     <rule id="cbf8-0219-1210-f85d" name="Cool Under Pressure" hidden="false">
       <description>When grizzled veterans are about to become shaken, roll a desperate D6. On an even roll, they do not become shaken. (PASSIVE)</description>
     </rule>
     <rule id="3cf4-84be-658a-0266" name="Make The Shot Count" hidden="false">
-      <description>This ability improves the first shot roll of a Fir- ing action by either 1 or 2, up to a maximum of 6, depending on how many SPs are spent (e.g. a roll of 3 becomes either a 4 or 5). Decide before you roll. If the ranged weapon used has multiple shots, roll the first one separately (the remaining shots are not improved due to recoil). Cannot be used on desperate or fluke rolls. (EPIC) 1/2 SP</description>
+      <description>This ability improves the first shot roll of a Firing action by either 1 or 2, up to a maximum of 6, depending on how many SPs are spent (e.g. a roll of 3 becomes either a 4 or 5). Decide before you roll. If the ranged weapon used has multiple shots, roll the first one separately (the remaining shots are not improved due to recoil). Cannot be used on desperate or fluke rolls. (EPIC) 1/2 SP</description>
     </rule>
     <rule id="cbad-02ab-9213-d829" name="Eagle-Eyed" hidden="false">
       <description>Marksmen can stretch the effective range of their ranged weapons. Weapons that have a shorter range than medium range (18&quot;) gain 3” of range, while medium range (18&quot;) weapons gain 6&quot;. Does not apply to flame weapons. (PASSIVE)</description>
@@ -1812,7 +1812,7 @@ tion, but any rolls become desperate. If this final action triggers a free actio
       <description>When gunslingers target enemies at short range (9&quot;) or closer, they can score critical hits even if there are rules that normally prevent them from being scored! (PASSIVE)</description>
     </rule>
     <rule id="cea4-5418-530b-08ac" name="Run And Gun" hidden="false">
-      <description>This ability is used after Moving and allows the following Fire action to be performed as if the weapon used has hip fire. If the weapon already has hip fire, the AP cost of Firing is reduced by 2 AP in- stead. Can&apos;t be used with precise weapons. 1 SP</description>
+      <description>This ability is used after Moving and allows the following Fire action to be performed as if the weapon used has hip fire. If the weapon already has hip fire, the AP cost of Firing is reduced by 2 AP instead. Can&apos;t be used with precise weapons. 1 SP</description>
     </rule>
     <rule id="0bf6-c35f-a7c5-f6de" name="Throw Smoke Grenade" hidden="false">
       <description>Allows the active soldier to throw a smoke grenade using an Interaction (difficulty 0). Place a special effects token within short range (9&quot;) of the soldier. Any Firing actions where line-of-sight passes over the token or within proximity (3&quot;) of it must use fluke rolls. The smoke has a duration of 2. (EPIC) 1 SP</description>
@@ -1821,13 +1821,13 @@ tion, but any rolls become desperate. If this final action triggers a free actio
       <description>Used during a Firing action to temporarily give a ranged weapon the piercing special rule. If the weapon is piercing already, it becomes hyper-piercing and may be used to ignore ironclad armour. The ability costs 2 SP if the weapon has multiple shots. (EPIC) 1/2 SP</description>
     </rule>
     <rule id="cd74-4451-af38-4f0f" name="Incendiary Ammo" hidden="false">
-      <description>Transforms a ranged weapon into a flame weap- on with short range (9&quot;) and damage 1 during a Firing action. If the weapon used is a flame weapon already, it becomes hyper-incendiary and increas- es its range by 3&quot; and its hit roll by 3 (up to a maximum of 6). The ability costs 2 SP if the weapon has multiple shots. (EPIC) 1/2 SP</description>
+      <description>Transforms a ranged weapon into a flame weapon with short range (9&quot;) and damage 1 during a Firing action. If the weapon used is a flame weapon already, it becomes hyper-incendiary and increases its range by 3&quot; and its hit roll by 3 (up to a maximum of 6). The ability costs 2 SP if the weapon has multiple shots. (EPIC) 1/2 SP</description>
     </rule>
     <rule id="d1b8-164e-34e5-941d" name="Return Fire" hidden="false">
       <description>If a soldier is within proximity (3&quot;) of a friendly soldier targeted by an enemy Firing action, they may use this ability to perform a Firing (1 AP) action as a reaction against that enemy, provided that the enemy is within range and line-of-sight. Cannot be used if the soldier wishing to return fire was also damaged or shaken by the enemy attack. 1 SP</description>
     </rule>
     <rule id="1400-9530-fcd5-a9c2" name="Targeting Marker" hidden="false">
-      <description>Instead of Firing regularly, a soldier may shoot a targeting marker (using the same maximum range as an equipped range weapon). A targeting marker automatically hits its target but causes no dam- age. Instead, the targeted enemy doesn&apos;t gain the benefit of cover, defense or the items chameleon weave and cloaking field for the rest of the game turn. (EPIC) 1 SP</description>
+      <description>Instead of Firing regularly, a soldier may shoot a targeting marker (using the same maximum range as an equipped range weapon). A targeting marker automatically hits its target but causes no damage. Instead, the targeted enemy doesn&apos;t gain the benefit of cover, defense or the items chameleon weave and cloaking field for the rest of the game turn. (EPIC) 1 SP</description>
     </rule>
     <rule id="d21a-cb11-6f48-c6e5" name="Unload!" hidden="false">
       <description>During a Focus Firing (2 AP) action, this ability can be used to temporarily double a ranged weapon&apos;s number of shots, instead of allowing rerolls, and make the weapon suppressive. If the weapon already is suppressive, this ability extends the range of the suppression effect of the weapon by D3&quot;. (EPIC) 1 SP</description>
@@ -1836,7 +1836,7 @@ tion, but any rolls become desperate. If this final action triggers a free actio
       <description>When a gun fanatic is Firing, any miss adds a fluke shot to the current Firing action. These fluke shots cannot generate further shots! (PASSIVE)</description>
     </rule>
     <rule id="3e94-11a2-b323-1e50" name="Rush Of Blood" hidden="false">
-      <description>After defeating an enemy in melee range (1&quot;), a soldier may use this ability to keep the mo- mentum up and freely Fight (1 AP) a different enemy or, if there are no eligible targets to Fight, they may instead freely Move (1 AP) to charge a different enemy, including freely Fighting (1 AP) that enemy as part of the charge. These options are possible even if the soldier has already Fought and/or Moved. Cannot be used if there are no eligible targets to either Fight or charge. 1 SP</description>
+      <description>After defeating an enemy in melee range (1&quot;), a soldier may use this ability to keep the momentum up and freely Fight (1 AP) a different enemy or, if there are no eligible targets to Fight, they may instead freely Move (1 AP) to charge a different enemy, including freely Fighting (1 AP) that enemy as part of the charge. These options are possible even if the soldier has already Fought and/or Moved. Cannot be used if there are no eligible targets to either Fight or charge. 1 SP</description>
     </rule>
     <rule id="a92e-d6a6-754a-33d7" name="Frenzy" hidden="false">
       <description>Bloodseekers caught in bloodshed find it easy to keep going! Whenever a successful strike is scored, bloodseekers get to roll an additional fluke strike with the same weapon that scored the initial strike. This can potentially repeat to create another fluke strike! Yeah, holy crap. (PASSIVE)</description>
@@ -1848,34 +1848,34 @@ tion, but any rolls become desperate. If this final action triggers a free actio
       <description>When about to Fight, this ability allows a soldier to gain either 1, 2 or 3 strikes with one equipped melee weapon, depending on how many SPs are spent, but each added strike is desperate (or flukes if the weapon already uses desperate or fluke rolls). If the soldier has no melee weapon, they may use this ability to gain fluke strikes in addition to their normal desperate strike. (EPIC) 1/2 SP</description>
     </rule>
     <rule id="faa2-191f-19c6-e958" name="Wind Strikes" hidden="false">
-      <description>After completing a Move, a soldier may use this ability to use the Fight action to allocate strikes against any enemy they passed within proximity (3&quot;) of during the previous Move, allowing them to effec- tively attack enemies on the go. May not use cataclysmic weapons with this ability. 1 SP</description>
+      <description>After completing a Move, a soldier may use this ability to use the Fight action to allocate strikes against any enemy they passed within proximity (3&quot;) of during the previous Move, allowing them to effectively attack enemies on the go. May not use cataclysmic weapons with this ability. 1 SP</description>
     </rule>
     <rule id="3353-357d-213a-faf7" name="Dodge" hidden="false">
-      <description>When targeted by an enemy Fire or Fight action or reaction, a skillful dodge allows a soldier to reaction Move up to 3&quot; before any rolls are per- formed. The enemy action is then performed with this new position in mind, which may mean that the dodging soldier is behind cover, out of range, further from a blast or out of line-of-sight which may make the action more difficult or fail outright. (EPIC) 2 SP</description>
+      <description>When targeted by an enemy Fire or Fight action or reaction, a skillful dodge allows a soldier to reaction Move up to 3&quot; before any rolls are performed. The enemy action is then performed with this new position in mind, which may mean that the dodging soldier is behind cover, out of range, further from a blast or out of line-of-sight which may make the action more difficult or fail outright. (EPIC) 2 SP</description>
     </rule>
     <rule id="d988-f89d-89bd-2a2a" name="Meet The Enemy" hidden="false">
       <description>When an enemy is about to Fight, but before any rolls are made, guardians may use this ability to gain +1 or +2 defense depending on the amount of SPs spent. However, if the charged soldier already has +2 defense (max amount), they get to reaction Fight (1 AP) or Furiously Fight (2 AP) before the enemy (depending on amount of SPs used), but all strikes become desperate. 1/2 SP</description>
     </rule>
     <rule id="6c41-d5ac-a65b-87ba" name="Triumphant Defence" hidden="false">
-      <description>Whenever they defeat an enemy in melee range (1&quot;), guardians quickly resume a defensive pos- ture, gaining +1 defense. If they already have +2 defense, they may perform a free 1 AP action. (PASSIVE)</description>
+      <description>Whenever they defeat an enemy in melee range (1&quot;), guardians quickly resume a defensive posture, gaining +1 defense. If they already have +2 defense, they may perform a free 1 AP action. (PASSIVE)</description>
     </rule>
     <rule id="9cee-20c6-f04f-d659" name="Scale Obstacle" hidden="false">
-      <description>Allows a soldier with the normal movement type to temporarily gain the leap movement type during a Move action. If a soldier already has leap, this allows them to treat any dash roll as 6. Howev- er, if a soldier is grounded, this ability only changes their movement type to normal instead of leap. 1 SP</description>
+      <description>Allows a soldier with the normal movement type to temporarily gain the leap movement type during a Move action. If a soldier already has leap, this allows them to treat any dash roll as 6. However, if a soldier is grounded, this ability only changes their movement type to normal instead of leap. 1 SP</description>
     </rule>
     <rule id="422d-68af-3030-c362" name="Rig Explosives" hidden="false">
       <description>Allows a soldier to plant explosives within their proximity (3&quot;), using an Interaction (difficulty 1) and a special effects token. The explosives have a duration of 2, after which they &quot;hit&quot; and function like a blast weapon with damage 1, except that the blast radius is 2D6&quot;. If the explosives are placed on, or are within melee range (1&quot;) of, a removable terrain piece or an objective, they are destroyed and removed from play. Any soldiers standing on the terrain piece are taken out. Enemies can attempt to disarm the explosives using an Interaction (difficulty 4). Usable once per game. (EPIC) 2 SP</description>
     </rule>
     <rule id="6dea-be95-117c-92ad" name="Flank&apos;em" hidden="false">
-      <description>When one of your soldiers is about to Move, this ability allows them to end that Move beyond the edge of the combat zone, thereby leaving it. In the next game turn, upon their activation, they can be rede- ployed anywhere along the same combat zone edge (within melee range (1&quot;) of the edge, but outside melee range (1&quot;) of enemes). This redeployment does not count as an action and the soldier may spend all of their action points (AP) as normal. 1 SP</description>
+      <description>When one of your soldiers is about to Move, this ability allows them to end that Move beyond the edge of the combat zone, thereby leaving it. In the next game turn, upon their activation, they can be redeployed anywhere along the same combat zone edge (within melee range (1&quot;) of the edge, but outside melee range (1&quot;) of enemes). This redeployment does not count as an action and the soldier may spend all of their action points (AP) as normal. 1 SP</description>
     </rule>
     <rule id="fa8a-d610-5cd3-2a10" name="Steady Marchers" hidden="false">
       <description>Rangers might not always be the quickest, but they are consistent and reliable on the march. Any time a dash roll is about to be performed, a ranger may choose to treat any die roll as 4 instead of rolling it (for example, 2D6&quot; can be treated as 8&quot;). When a D3 is used, this ability may be used to count it as 2. (PASSIVE)</description>
     </rule>
     <rule id="9ffd-4e72-c491-74ea" name="Drop Soldier" hidden="false">
-      <description>A skyborne squad may opt to not deploy any amount of soldiers during the initial deploy- ment, instead using this ability to deploy the soldiers later. At the start of each game turn, any undeployed soldiers may use this ability to be dropped anywhere in the combat zone that is not within proximity (3&quot;) of an enemy. Dropped soldiers always count as expended initially. This ability may be used when reinforcing troopers in game turn 4 or later. SP cost is per soldier. 1 SP</description>
+      <description>A skyborne squad may opt to not deploy any amount of soldiers during the initial deployment, instead using this ability to deploy the soldiers later. At the start of each game turn, any undeployed soldiers may use this ability to be dropped anywhere in the combat zone that is not within proximity (3&quot;) of an enemy. Dropped soldiers always count as expended initially. This ability may be used when reinforcing troopers in game turn 4 or later. SP cost is per soldier. 1 SP</description>
     </rule>
     <rule id="f4cb-bc68-34d7-8fd3" name="Request Strafing Run" hidden="false">
-      <description>Allows the active soldier to use an Interaction (difficulty 0) to request a strafing run. Place a special effects token anywhere in the combat zone and a second one within 3D6&quot; of the first one. The request has a duration of 2. When the duration ends, any soldier within proximity (3&quot;) of the tokens or the line be- tween them becomes shaken and a fluke roll is performed for each one - if successful, that particular (EPIC) 3 SP</description>
+      <description>Allows the active soldier to use an Interaction (difficulty 0) to request a strafing run. Place a special effects token anywhere in the combat zone and a second one within 3D6&quot; of the first one. The request has a duration of 2. When the duration ends, any soldier within proximity (3&quot;) of the tokens or the line between them becomes shaken and a fluke roll is performed for each one - if successful, that particular (EPIC) 3 SP</description>
     </rule>
     <rule id="75f3-133f-a33f-2ec1" name="Breach!" hidden="false">
       <description>Allows a soldier to temporarily gain the breach movement type when they are about to make a Move. Any enemy within D6&quot; of the breach &quot;exit&quot; suffers 1 point of damage. If the soldier already has the breach movement type, this becomes within 6&quot; instead. 1 SP</description>
@@ -1887,10 +1887,10 @@ tion, but any rolls become desperate. If this final action triggers a free actio
       <description>After a guerrilla soldier Fires or Fights, they may use this ability to Move D6&quot; as a free action (even if they have Moved). Any reaction that their attack or this free Move triggers is delayed until after the Move is complete, which can make it more difficult or fail (due to lack of line-of-sight or so). When a minion uses this ability, it simply adds D6&quot; to their scamper Move. 1 SP</description>
     </rule>
     <rule id="3f44-bfbf-e110-0307" name="Setup Ambush Zone" hidden="false">
-      <description>Place a special effects token anywhere in the combat zone to represent your ambush zone. Any enemy that ends a Move within short range (9&quot;) of the token may be reaction Fired (1 AP) upon or re- action charged by 1 friendly soldier within short range (9&quot;) of the token (your choice of soldier). If the charge option is selected, your soldier may both Move into melee range (1&quot;) with the enemy and Fight (1 AP) freely. Only one ambush zone may be active at once. 1 SP</description>
+      <description>Place a special effects token anywhere in the combat zone to represent your ambush zone. Any enemy that ends a Move within short range (9&quot;) of the token may be reaction Fired (1 AP) upon or reaction charged by 1 friendly soldier within short range (9&quot;) of the token (your choice of soldier). If the charge option is selected, your soldier may both Move into melee range (1&quot;) with the enemy and Fight (1 AP) freely. Only one ambush zone may be active at once. 1 SP</description>
     </rule>
     <rule id="843b-d780-8c84-bb61" name="In To/Out Of The Shadows" hidden="false">
-      <description>Upon finishing a Move, an infiltrator may fade into the shadows and remove themselves from the combat zone. The infiltrator must be out of short range (9&quot;) or line-of-sight of any enemy when this ability is used (either is enough). In a later game turn (not necessarily the next), when this ability is used again and the same infiltrator is activated, they may return to the combat zone in any location which fulfils the same restric- tions as above. Reappearing counts as a Move (1 AP). 1 SP</description>
+      <description>Upon finishing a Move, an infiltrator may fade into the shadows and remove themselves from the combat zone. The infiltrator must be out of short range (9&quot;) or line-of-sight of any enemy when this ability is used (either is enough). In a later game turn (not necessarily the next), when this ability is used again and the same infiltrator is activated, they may return to the combat zone in any location which fulfils the same restrictions as above. Reappearing counts as a Move (1 AP). 1 SP</description>
     </rule>
     <rule id="913f-21e7-2083-c493" name="Low Profile" hidden="false">
       <description>When an infiltrator in cover is the target of an enemy Fire action, roll a D6. The range of the enemy weapon is reduced by this amount, in inches, down to a minimum of short range (9&quot;). If their range becomes insufficient, the action fails outright. (PASSIVE)</description>
@@ -1926,13 +1926,13 @@ tion, but any rolls become desperate. If this final action triggers a free actio
       <description>You may only select three psychic powers that can be used with CONJURE PSYCHIC POWER. These must be presented to your opponent as part of your squad masteries. However, your squad may also train a psymancer &quot;as normal&quot; (if you so desire), and that psymancer may choose psychic powers that differ from your squad&apos;s overall choices. (PASSIVE)</description>
     </rule>
     <rule id="04ec-7e45-b562-1284" name="Drill Sergeant" hidden="false">
-      <description>A drill sergeant gains the ability to inspire his soldiers using an Interaction. Is That All You Got? (Interaction) The drill sergeant may target an expended friendly soldier within proximity (3&quot;). The interaction diffi- culty is 1. If successful, the ally may immediately perform a 1 AP action as a reaction. On a critical success, they may perform a 2 AP action instead.</description>
+      <description>A drill sergeant gains the ability to inspire his soldiers using an Interaction. Is That All You Got? (Interaction) The drill sergeant may target an expended friendly soldier within proximity (3&quot;). The interaction difficulty is 1. If successful, the ally may immediately perform a 1 AP action as a reaction. On a critical success, they may perform a 2 AP action instead.</description>
     </rule>
     <rule id="9a1f-8e89-bdf0-a9cf" name="Master Tactician" hidden="false">
       <description>A master tactician may pause and carefully consider the combat situation at any time.Tactical Reassessment (Interaction) The interaction difficulty is 1. If successful, the squad gains 1 additional squad point (SP). On a critical success, the squad gains 2 additional squad points (SP).</description>
     </rule>
     <rule id="36ff-415c-79ca-5600" name="Specialist" hidden="false">
-      <description>These skillful experts automatically suc- ceed when Interacting (1 AP) and automatically critically succeed, if applicable, when Frantically Interacting (2 AP).</description>
+      <description>These skillful experts automatically succeed when Interacting (1 AP) and automatically critically succeed, if applicable, when Frantically Interacting (2 AP).</description>
     </rule>
     <rule id="4944-9a11-2677-cf6b" name="Master Crafter" hidden="false">
       <description>All weapons and items in a master crafter&apos;s squad may reroll one shot and strike roll of 1 during each Fire or Fight action. Additionally, any rare equipment that a master crafter equips does not count towards your total amount of rares.</description>
@@ -1956,7 +1956,7 @@ tion, but any rolls become desperate. If this final action triggers a free actio
       <description>Masters of blending in and leading through hushed whispers. A faceless squad leader, and any friendly soldier within proximity (3&quot;), may only be targeted by enemies when they are the closest visible target or when they are within proximity (3&quot;) of the enemy attacking.</description>
     </rule>
     <rule id="08da-3194-4db6-e38e" name="Nether Shield" hidden="false">
-      <description>Using this ability, as an Interaction with a difficulty of 2, the psymancer provides arcane protection to a friendly soldier within short range (9&quot;), or themselves. The shield grants +1 defense (+2 on a critical success) with a dura- tion of 2. Provides immunity to psychic powers.</description>
+      <description>Using this ability, as an Interaction with a difficulty of 2, the psymancer provides arcane protection to a friendly soldier within short range (9&quot;), or themselves. The shield grants +1 defense (+2 on a critical success) with a duration of 2. Provides immunity to psychic powers.</description>
     </rule>
     <rule id="7de3-eb13-fbb0-c168" name="The Exalted One" hidden="false">
       <description>The psymancer calls on otherworldly forces to bless a friendly soldier within short range (9&quot;), or themselves, using an Interaction with a difficulty of 2. If successful, the friendly soldier gains 1 extra action point (AP) and 1 extra point of damage to all their shots and strikes during their next activation (place a special effects token next to them). However, if celestial favour is not gained and an interact roll of 1 is scored, the targeted soldier loses 1 point of vitality instead.</description>
@@ -1965,7 +1965,7 @@ tion, but any rolls become desperate. If this final action triggers a free actio
       <description>The psymancer may use an Interaction to reposition a friendly soldier to a playable surface within the psymancer&apos;s proximity (3&quot;), but outside of melee range (1&quot;) of enemies. The ally can be any friendly soldier that is still in the combat zone or a friendly trooper that has been taken out (who&apos;s summoned back instead of using the Reinforcements! rule). The interaction difficulty is equal to the summoned soldier&apos;s starting vitality.</description>
     </rule>
     <rule id="ebe2-c4d9-2a6e-9d4c" name="Shatter Mind" hidden="false">
-      <description>The psymancer directs violent cosmic energy at a single enemy target within short range (9&quot;), using an Interaction. The interac- tion difficulty is 2. If succesful, the target takes 1 point of piercing damage (2 if a critical success is scored). This attack doesn&apos;t require line-of-sight.</description>
+      <description>The psymancer directs violent cosmic energy at a single enemy target within short range (9&quot;), using an Interaction. The interaction difficulty is 2. If succesful, the target takes 1 point of piercing damage (2 if a critical success is scored). This attack doesn&apos;t require line-of-sight.</description>
     </rule>
     <rule id="29ab-908f-d12c-45b0" name="Wall Of Torment" hidden="false">
       <description>Using an Interaction with a difficulty of 4, a psymancer may conjure an infernal, painful barrier which deals 1 point of piercing damage to enemies that Move through it. Choose a start and end point within short range (9&quot;) of each other and the psymancer. Use special effects tokens to mark the positions. The wall has a duration of 2. Only one may be active per player.</description>
@@ -1974,10 +1974,10 @@ tion, but any rolls become desperate. If this final action triggers a free actio
       <description>Using an Interaction, the psymancer deviously attempts to influence the movement of a single enemy target within medium range (18&quot;), without the need for line-of-sight. The interaction difficulty is equal to the target&apos;s current vitality. If succesful, the target may be moved up to 3&quot; or have their regular movement distance reduced to 3&quot; for the rest of the game turn.</description>
     </rule>
     <rule id="d5ce-c4ae-a0b2-7225" name="Blood Ritual" hidden="false">
-      <description>In a dark ritual, an Interaction with a diffi- culty of 3, the psymancer sacrifices a friendly soldier within proximity (3&quot;). If succesful, remove the soldier as if they&apos;d been taken out, but take note of their current vitality. This number may be added to the result of all dice rolls (up to a maximum of 6) performed by the squad for the rest of the game turn. May only be used once per game.</description>
+      <description>In a dark ritual, an Interaction with a difficulty of 3, the psymancer sacrifices a friendly soldier within proximity (3&quot;). If succesful, remove the soldier as if they&apos;d been taken out, but take note of their current vitality. This number may be added to the result of all dice rolls (up to a maximum of 6) performed by the squad for the rest of the game turn. May only be used once per game.</description>
     </rule>
     <rule id="1453-424d-8dae-66d1" name="Spirit Surge" hidden="false">
-      <description>When the psymancer is about to lose their last point of vitality and be taken out, an immense surge of ethereal energy is released, restoring the psymancer back to 1 point of vitality. Also, any soldier, friend or enemy, within proximity (3&quot;) of the psymancer is knocked back D6&quot;, becom- ing shaken. This can only happen once per game.</description>
+      <description>When the psymancer is about to lose their last point of vitality and be taken out, an immense surge of ethereal energy is released, restoring the psymancer back to 1 point of vitality. Also, any soldier, friend or enemy, within proximity (3&quot;) of the psymancer is knocked back D6&quot;, becoming shaken. This can only happen once per game.</description>
     </rule>
   </sharedRules>
 </gameSystem>

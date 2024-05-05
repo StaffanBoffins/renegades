@@ -403,7 +403,7 @@
           <description>Heavies are hardened and have breach and grounded movement. They don&apos;t get shaken, except from squad abilities.</description>
         </rule>
         <rule id="59d4-365b-bdc0-433c" name="Horrid Physiology" hidden="false">
-          <description>Gains regen. At the start of each acti- vation, select one special rule for use this game turn:</description>
+          <description>Gains regen. At the start of each activation, select one special rule for use this game turn:</description>
         </rule>
         <rule id="9169-a8ee-8a63-4e72" name="Thunderous Advance" hidden="false">
           <description>Increases dash roll to 2D6.</description>
@@ -605,7 +605,7 @@ Move becomes 6&quot; (instead of D6).</description>
           </constraints>
           <rules>
             <rule id="cfb5-61c3-44be-3c06" name="Exposed Target" hidden="false">
-              <description>While the drone is within proximity (3&quot;) of enemies, they can&apos;t gain the benefit of cover, de- fense or the items chameleon weave and cloaking field.</description>
+              <description>While the drone is within proximity (3&quot;) of enemies, they can&apos;t gain the benefit of cover, defense or the items chameleon weave and cloaking field.</description>
             </rule>
           </rules>
           <costs>
@@ -661,7 +661,7 @@ Move becomes 6&quot; (instead of D6).</description>
           <description>Gains a permanent +2 defense from their small body type and, once per activation, after Fighting, Firing or Interacting, they may perform a free &quot;Scamper!&quot; Move (even if they have Moved). It allows them to Move D6&quot; and retreat without consequences - but not charge.</description>
         </rule>
         <rule id="be9f-4428-185e-cd26" name="Pesky Swarm" hidden="false">
-          <description>Each point of a swarm&apos;s vitality grants it a 1 damage fluke strike. Gains regen, but takes double dam- age from flame and blast weapons. Can&apos;t equip anything.
+          <description>Each point of a swarm&apos;s vitality grants it a 1 damage fluke strike. Gains regen, but takes double damage from flame and blast weapons. Can&apos;t equip anything.
 </description>
         </rule>
       </rules>
