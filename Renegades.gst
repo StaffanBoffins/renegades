@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="eb54-f6c1-c4bf-c22f" name="Renegades" revision="3" battleScribeVersion="2.03" authorName="Staffan Nilsson" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="eb54-f6c1-c4bf-c22f" name="Renegades" revision="4" battleScribeVersion="2.03" authorName="Staffan Nilsson" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <costTypes>
     <costType id="0583-bf1f-4515-6c66" name="Credit" defaultCostLimit="-1.0" hidden="false"/>
   </costTypes>
@@ -53,6 +53,7 @@
         <categoryLink id="8f3e-ed26-b1c9-c09b" name="Minion" hidden="false" targetId="98da-e52b-7c11-df0f" primary="false"/>
         <categoryLink id="064c-624a-6c88-fabd" name="Troopers" hidden="false" targetId="d669-d10b-1ad8-dba7" primary="false"/>
         <categoryLink id="5587-16f2-c592-6ce4" name="Heavies" hidden="false" targetId="f19d-a8f6-1233-852e" primary="false"/>
+        <categoryLink id="e19a-5675-f6ff-05e3" name="Squad Masteries" hidden="false" targetId="9531-b1f0-b62b-63e0" primary="false"/>
       </categoryLinks>
     </forceEntry>
   </forceEntries>
