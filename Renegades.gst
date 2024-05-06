@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="eb54-f6c1-c4bf-c22f" name="Renegades" revision="3" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="eb54-f6c1-c4bf-c22f" name="Renegades" revision="3" battleScribeVersion="2.03" authorName="Staffan Nilsson" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <costTypes>
     <costType id="0583-bf1f-4515-6c66" name="Credit" defaultCostLimit="-1.0" hidden="false"/>
   </costTypes>
@@ -1647,7 +1647,6 @@ May choose three psychic powers. Also, the cost of Interacting is reduced by 1 a
           </rules>
           <selectionEntries>
             <selectionEntry id="00c8-54b7-e016-4971" name=" " hidden="false" collective="false" import="true" type="upgrade">
-              <comment></comment>
               <costs>
                 <cost name="Credit" typeId="0583-bf1f-4515-6c66" value="1.0"/>
               </costs>
