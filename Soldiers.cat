@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="498c-3fa2-ce3e-950f" name="Soldiers" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="eb54-f6c1-c4bf-c22f" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="498c-3fa2-ce3e-950f" name="Soldiers" revision="3" battleScribeVersion="2.03" authorName="Staffan Nilsson" authorUrl="" library="false" gameSystemId="eb54-f6c1-c4bf-c22f" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <readme></readme>
   <entryLinks>
     <entryLink id="9d16-16d4-c57d-c9c3" name="Elite" hidden="false" collective="false" import="true" targetId="a521-f8ca-cb4b-c576" type="selectionEntry">
       <categoryLinks>
