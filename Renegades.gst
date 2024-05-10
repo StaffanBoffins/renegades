@@ -1979,5 +1979,17 @@ tion, but any rolls become desperate. If this final action triggers a free actio
     <rule id="1453-424d-8dae-66d1" name="Spirit Surge" hidden="false">
       <description>When the psymancer is about to lose their last point of vitality and be taken out, an immense surge of ethereal energy is released, restoring the psymancer back to 1 point of vitality. Also, any soldier, friend or enemy, within proximity (3&quot;) of the psymancer is knocked back D6&quot;, becoming shaken. This can only happen once per game.</description>
     </rule>
+    <rule id="ed3b-adc7-9ac2-bd97" name="Hyper-Active" hidden="false">
+      <description>Gains AP 4. Becoming shaken reduces the soldier to 2 AP, instead of 1. Reactions caused by Instinctive Reactions no longer use desperate rolls.</description>
+    </rule>
+    <rule id="aad2-8d0b-ae90-bbb8" name="Leap Into Battle" hidden="false">
+      <description>Gains leap movement 9&quot; (+D6).</description>
+    </rule>
+    <rule id="8663-454d-5028-b5a6" name="Blessing of Speed" hidden="false">
+      <description>Gains grounded 9&quot; (+2D6) move- ment. Can&apos;t Defend, but gains +1 defense when Moving (1 AP) and +2 defense when Dash Moving (2 AP).</description>
+    </rule>
+    <rule id="fb54-fb1d-0d08-9e8a" name="+1 slot" hidden="false">
+      <description>Gains an additional inventory slot.</description>
+    </rule>
   </sharedRules>
 </gameSystem>
