@@ -1659,7 +1659,9 @@ May choose three psychic powers. Also, the cost of Interacting is reduced by 1 a
   </sharedSelectionEntryGroups>
   <sharedRules>
     <rule id="5432-8bb9-9ef1-953f" name="Hip Fire" hidden="false"/>
-    <rule id="cb7f-165c-be27-46d1" name="Desperate Rolls" hidden="false"/>
+    <rule id="cb7f-165c-be27-46d1" name="Desperate Rolls" hidden="false">
+      <description>When a dice roll is desperate, all uneven rolls count as a miss or failure (i.e. 1/3/5), even if they would normally cause a hit or success. Similarly, when a roll is a fluke, all rolls except rolls of 6 count as a miss or failure. Neither of these rolls can score critical hits/successes. In rare situations where one rule calls for desperate rolls while another calls for fluke rolls, the latter are used (since they are &quot;worse&quot;).</description>
+    </rule>
     <rule id="4b53-5815-ef89-bc37" name="Piercing" hidden="false">
       <description>With the piercing attribute, a weapon ignores the hardened special rule and deals damage directly.</description>
     </rule>
@@ -1990,6 +1992,9 @@ tion, but any rolls become desperate. If this final action triggers a free actio
     </rule>
     <rule id="fb54-fb1d-0d08-9e8a" name="+1 slot" hidden="false">
       <description>Gains an additional inventory slot.</description>
+    </rule>
+    <rule id="bf51-135d-ce4a-cd84" name="Hip Fire" hidden="false">
+      <description>A weapon with hip fire is nimble and easy to use, reducing the AP cost of Firing actions (both single and double) by 1.</description>
     </rule>
   </sharedRules>
 </gameSystem>
