@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="eb54-f6c1-c4bf-c22f" name="Renegades" revision="4" battleScribeVersion="2.03" authorName="Staffan Nilsson" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="eb54-f6c1-c4bf-c22f" name="Renegades" revision="5" battleScribeVersion="2.03" authorName="Staffan Nilsson" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <costTypes>
     <costType id="0583-bf1f-4515-6c66" name="Credit" defaultCostLimit="-1.0" hidden="false"/>
   </costTypes>
@@ -90,7 +90,7 @@
                 </profile>
               </profiles>
               <infoLinks>
-                <infoLink id="c756-c757-1553-6396" name="Hip Fire" hidden="false" targetId="bf51-135d-ce4a-cd84" type="rule"/>
+                <infoLink id="c756-c757-1553-6396" name="Hip Fire" hidden="false" targetId="5432-8bb9-9ef1-953f" type="rule"/>
                 <infoLink id="e877-815a-d208-315e" name="Piercing" hidden="false" targetId="4b53-5815-ef89-bc37" type="rule"/>
               </infoLinks>
               <costs>
@@ -109,7 +109,7 @@
                 </profile>
               </profiles>
               <infoLinks>
-                <infoLink id="8e3d-50af-7041-17cb" name="Hip Fire" hidden="false" targetId="bf51-135d-ce4a-cd84" type="rule"/>
+                <infoLink id="8e3d-50af-7041-17cb" name="Hip Fire" hidden="false" targetId="5432-8bb9-9ef1-953f" type="rule"/>
                 <infoLink id="b1cc-b0e8-9184-3cec" name="Desperate Rolls" hidden="false" targetId="cb7f-165c-be27-46d1" type="rule"/>
               </infoLinks>
               <categoryLinks>
@@ -136,7 +136,7 @@
                 </profile>
               </profiles>
               <infoLinks>
-                <infoLink id="fde3-19f9-4b50-8c5b" name="Hip Fire" hidden="false" targetId="bf51-135d-ce4a-cd84" type="rule"/>
+                <infoLink id="fde3-19f9-4b50-8c5b" name="Hip Fire" hidden="false" targetId="5432-8bb9-9ef1-953f" type="rule"/>
                 <infoLink id="92de-9b28-fc72-3dd5" name="Akimbo" hidden="false" targetId="5bcf-abff-c150-002e" type="rule"/>
                 <infoLink id="9645-57ad-b86a-2a2c" name="Suppressive" hidden="false" targetId="e006-db23-5552-77e4" type="rule"/>
                 <infoLink id="2cd1-34d2-f957-3c96" name="Desperate Rolls" hidden="false" targetId="cb7f-165c-be27-46d1" type="rule"/>
@@ -157,7 +157,7 @@
                 </profile>
               </profiles>
               <infoLinks>
-                <infoLink id="e9bc-6a51-f2f9-13f3" name="Hip Fire" hidden="false" targetId="bf51-135d-ce4a-cd84" type="rule"/>
+                <infoLink id="e9bc-6a51-f2f9-13f3" name="Hip Fire" hidden="false" targetId="5432-8bb9-9ef1-953f" type="rule"/>
                 <infoLink id="8f62-2a78-e1bd-8d60" name="Akimbo" hidden="false" targetId="5bcf-abff-c150-002e" type="rule"/>
               </infoLinks>
               <categoryLinks>
@@ -180,7 +180,7 @@
                 </profile>
               </profiles>
               <infoLinks>
-                <infoLink id="cf10-4270-fd1e-0fe9" name="Hip Fire" hidden="false" targetId="bf51-135d-ce4a-cd84" type="rule"/>
+                <infoLink id="cf10-4270-fd1e-0fe9" name="Hip Fire" hidden="false" targetId="5432-8bb9-9ef1-953f" type="rule"/>
                 <infoLink id="2c8f-6c5f-0542-5a69" name="Akimbo" hidden="false" targetId="5bcf-abff-c150-002e" type="rule"/>
                 <infoLink id="8af1-073a-0100-a6e6" name="Piercing" hidden="false" targetId="4b53-5815-ef89-bc37" type="rule"/>
               </infoLinks>
@@ -204,7 +204,7 @@
                 </profile>
               </profiles>
               <infoLinks>
-                <infoLink id="273d-a519-4177-d5c7" name="Hip Fire" hidden="false" targetId="bf51-135d-ce4a-cd84" type="rule"/>
+                <infoLink id="273d-a519-4177-d5c7" name="Hip Fire" hidden="false" targetId="5432-8bb9-9ef1-953f" type="rule"/>
                 <infoLink id="2255-5ec2-9f24-e19c" name="Akimbo" hidden="false" targetId="5bcf-abff-c150-002e" type="rule"/>
                 <infoLink id="49be-ab5d-9b3c-1da8" name="Piercing" hidden="false" targetId="4b53-5815-ef89-bc37" type="rule"/>
               </infoLinks>
@@ -271,7 +271,7 @@
               <infoLinks>
                 <infoLink id="e3aa-3d6f-68d0-0204" name="Auto" hidden="false" targetId="992d-d30b-da4e-e6e7" type="rule"/>
                 <infoLink id="a334-289c-3318-14f9" name="Suppressive" hidden="false" targetId="e006-db23-5552-77e4" type="rule"/>
-                <infoLink id="ebc3-2c8b-87ea-7544" name="Hip Fire" hidden="false" targetId="bf51-135d-ce4a-cd84" type="rule"/>
+                <infoLink id="ebc3-2c8b-87ea-7544" name="Hip Fire" hidden="false" targetId="5432-8bb9-9ef1-953f" type="rule"/>
               </infoLinks>
               <costs>
                 <cost name="Credit" typeId="0583-bf1f-4515-6c66" value="6.0"/>
@@ -290,7 +290,7 @@
               </profiles>
               <infoLinks>
                 <infoLink id="a53f-3255-c082-a6f8" name="Auto" hidden="false" targetId="992d-d30b-da4e-e6e7" type="rule"/>
-                <infoLink id="e08e-10c5-1887-a5be" name="Hip Fire" hidden="false" targetId="bf51-135d-ce4a-cd84" type="rule"/>
+                <infoLink id="e08e-10c5-1887-a5be" name="Hip Fire" hidden="false" targetId="5432-8bb9-9ef1-953f" type="rule"/>
               </infoLinks>
               <costs>
                 <cost name="Credit" typeId="0583-bf1f-4515-6c66" value="3.0"/>
@@ -352,7 +352,7 @@
               </profiles>
               <infoLinks>
                 <infoLink id="ca9b-a784-5979-b7fc" name="Suppressive" hidden="false" targetId="e006-db23-5552-77e4" type="rule"/>
-                <infoLink id="296f-57aa-84f4-291d" name="Hip Fire" hidden="false" targetId="bf51-135d-ce4a-cd84" type="rule"/>
+                <infoLink id="296f-57aa-84f4-291d" name="Hip Fire" hidden="false" targetId="5432-8bb9-9ef1-953f" type="rule"/>
                 <infoLink id="3583-3f44-5bd9-f048" name="Split Fire" hidden="false" targetId="ce2f-00a7-7465-64eb" type="rule"/>
               </infoLinks>
               <costs>
@@ -533,7 +533,7 @@ Piercing Missile: 2</characteristic>
               </profiles>
               <infoLinks>
                 <infoLink id="4f71-5f98-6e1e-9729" name="Flame" hidden="false" targetId="2f44-1c66-5c4c-6df9" type="rule"/>
-                <infoLink id="aee6-da91-4e37-0993" name="Hip Fire" hidden="false" targetId="bf51-135d-ce4a-cd84" type="rule"/>
+                <infoLink id="aee6-da91-4e37-0993" name="Hip Fire" hidden="false" targetId="5432-8bb9-9ef1-953f" type="rule"/>
               </infoLinks>
               <categoryLinks>
                 <categoryLink id="ac1f-8b6c-1713-7395" name="Ranged Weapons" hidden="false" targetId="0513-1b03-4cf9-e4f4" primary="false"/>
@@ -555,7 +555,7 @@ Piercing Missile: 2</characteristic>
               </profiles>
               <infoLinks>
                 <infoLink id="8047-aca8-91de-ec68" name="Flame" hidden="false" targetId="2f44-1c66-5c4c-6df9" type="rule"/>
-                <infoLink id="52ff-cba2-3a91-4e94" name="Hip Fire" hidden="false" targetId="bf51-135d-ce4a-cd84" type="rule"/>
+                <infoLink id="52ff-cba2-3a91-4e94" name="Hip Fire" hidden="false" targetId="5432-8bb9-9ef1-953f" type="rule"/>
               </infoLinks>
               <categoryLinks>
                 <categoryLink id="777a-6694-4b2b-2099" name="Ranged Weapons" hidden="false" targetId="0513-1b03-4cf9-e4f4" primary="false"/>
@@ -577,7 +577,7 @@ Piercing Missile: 2</characteristic>
               </profiles>
               <infoLinks>
                 <infoLink id="bbd9-5f9d-1ce7-5f1a" name="Flame" hidden="false" targetId="2f44-1c66-5c4c-6df9" type="rule"/>
-                <infoLink id="b2ed-87bd-a9b5-9a84" name="Hip Fire" hidden="false" targetId="bf51-135d-ce4a-cd84" type="rule"/>
+                <infoLink id="b2ed-87bd-a9b5-9a84" name="Hip Fire" hidden="false" targetId="5432-8bb9-9ef1-953f" type="rule"/>
                 <infoLink id="427b-bf3d-cac3-8367" name="Akimbo" hidden="false" targetId="5bcf-abff-c150-002e" type="rule"/>
               </infoLinks>
               <categoryLinks>
@@ -1994,9 +1994,6 @@ tion, but any rolls become desperate. If this final action triggers a free actio
     </rule>
     <rule id="fb54-fb1d-0d08-9e8a" name="+1 slot" hidden="false">
       <description>Gains an additional inventory slot.</description>
-    </rule>
-    <rule id="bf51-135d-ce4a-cd84" name="Hip Fire" hidden="false">
-      <description>A weapon with hip fire is nimble and easy to use, reducing the AP cost of Firing actions (both single and double) by 1.</description>
     </rule>
   </sharedRules>
 </gameSystem>
