@@ -1658,7 +1658,9 @@ May choose three psychic powers. Also, the cost of Interacting is reduced by 1 a
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
-    <rule id="5432-8bb9-9ef1-953f" name="Hip Fire" hidden="false"/>
+    <rule id="5432-8bb9-9ef1-953f" name="Hip Fire" hidden="false">
+      <description>A weapon with hip fire is nimble and easy to use, reducing the AP cost of Firing actions (both single and double) by 1.</description>
+    </rule>
     <rule id="cb7f-165c-be27-46d1" name="Desperate Rolls" hidden="false">
       <description>When a dice roll is desperate, all uneven rolls count as a miss or failure (i.e. 1/3/5), even if they would normally cause a hit or success. Similarly, when a roll is a fluke, all rolls except rolls of 6 count as a miss or failure. Neither of these rolls can score critical hits/successes. In rare situations where one rule calls for desperate rolls while another calls for fluke rolls, the latter are used (since they are &quot;worse&quot;).</description>
     </rule>
