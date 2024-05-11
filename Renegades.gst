@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="eb54-f6c1-c4bf-c22f" name="Renegades" revision="5" battleScribeVersion="2.03" authorName="Staffan Nilsson" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="eb54-f6c1-c4bf-c22f" name="Renegades" revision="6" battleScribeVersion="2.03" authorName="Staffan Nilsson" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <costTypes>
     <costType id="0583-bf1f-4515-6c66" name="Credit" defaultCostLimit="-1.0" hidden="false"/>
   </costTypes>
